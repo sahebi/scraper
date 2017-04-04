@@ -1,0 +1,24 @@
+url: http://tabnak.ir/
+index:
+    col_2_news:
+        box-selector: .service_content .row
+        traversing: first | end | siblings | parents | children | 1 | null
+        items:
+            - ['url',  'css-selector', href]
+            - ['title','css-selector', text]
+            - ['body', 'css-selector', nodeName]
+            - ['image','css-selector', src]
+    col_3_news:
+        regex:
+        return:
+            -
+            -
+            -
+            -
+    col_4_news:
+page:
+    url: /.*\/econo.*/igu
+
+index_sport:
+    url: /.*\/econo.*/igu
+

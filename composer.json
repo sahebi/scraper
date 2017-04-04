@@ -1,0 +1,12 @@
+{
+    "name": "sahebi/crawler",
+    "authors": [{
+        "name": "Mohammad Mahdi Sahebi",
+        "email": "msahebi@gmail.com"
+    }],
+    "require": {
+        "symfony/yaml": "^3.2",
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.2"
+    }
+}
